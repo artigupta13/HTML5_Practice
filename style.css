@@ -1,0 +1,108 @@
+body{
+    margin: 10px;
+    background-color: black;
+}
+
+
+
+#home{
+    margin: -1px;
+    
+}
+
+
+nav button{
+    padding-bottom: 2px;
+    background-color: purple;
+    color:gray;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav button:hover{
+    color: white;
+    font-weight: bolder;
+}
+
+#temperature, #weight,  #distance{
+    text-align:center;
+}
+
+button{
+    font-size: 20px;
+    border: transparent;
+    border-radius: 40px;
+    background-color: lightgreen;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+button #temperature:hover, #weight:hover,  #distance:hover{
+    cursor: pointer;
+}
+
+.b{
+    border-top-style: solid;
+    border-top-width: 20px;
+    border-radius:10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    width:600px;
+    height: 400px;
+    display:flex;
+
+
+}
+
+.temperature{
+    border-top-color: green;
+}
+.weight{
+    border-top-color: coral;
+}
+.distance{
+    border-top-color: cyan;
+}
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+figure{
+    float: left;
+    justify-self: auto;
+    width: 200px;
+}
+
+#all-conversion-sections{
+    display: grid;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+}
+
+figcaption{
+    color: black;
+    font-size:17px;
+    text-align:center;
+}
+
+
+header{
+    font-size: 30px;
+    color:purple;
+    float: left;
+    padding-left: 2px;
+}
+
+nav {
+    float: right;
+    padding-right: 1px;
+}
+
+
